@@ -1,0 +1,294 @@
+/* style.css */
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body {
+	margin:25px;
+	background-image: "../images/1.jpg";
+}
+
+h1,h5{
+  padding: 5px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.about_img{
+	position: relative;
+	display: inline-block;
+	border: 1px solid #ddd;
+	padding: 5px;
+	width: 394px;
+	height: 646px;
+	border-radius: 8px;
+	object-fit: cover;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.about_img:hover{
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.about{
+	margin: auto;
+    width: 50%;
+    border: 3px solid white;
+    padding: 10px;
+	position: absolute;
+	z-index: 999;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: 50%;
+	text-align: center;
+	color: white;
+	float: left;
+    width: 25%;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: bold; 
+    line-height: 20px;
+}
+
+
+.port_img{
+	position: relative;
+	display: inline-block;
+	border: 1px solid #ddd;
+	padding: 5px;
+	width: 394px;
+	height: 646px;
+	border-radius: 8px;
+	object-fit: cover;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+
+}
+
+.port_img:hover{
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.port{
+	margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+	position: absolute;
+	z-index: 999;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: 50%; 
+	text-align: center;
+	color: black;
+	display: inline-block;
+    margin: 0 auto;
+    width: 50%;
+    font-family: "Courier New", Courier, monospace; 
+    font-size: 25px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: bold; 
+    line-height: 20px;
+}
+
+.contact_img{
+	position: relative;
+	display: inline-block;
+	border: 1px solid #ddd;
+	padding: 5px;
+	width: 394px;
+	height: 646px;
+	border-radius: 8px;
+	object-fit: cover;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+
+}
+
+.contact_img:hover{
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.contact{
+	margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+	position: absolute;
+	z-index: 999;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: 40%;
+	text-align: center;
+	color: black;
+	display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: bold; 
+    line-height: 20px;
+}
+
+.home_img{
+	position: relative;
+	display: inline-block; /* Make the width of box same as image */
+
+}
+
+.home{
+	margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+	position: absolute;
+	z-index: 999;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: 50%;
+	text-align: center;
+	color: black;
+	float: left;
+    width: 25%;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: bold; 
+    line-height: 20px;
+	
+}
+
+.Menus {
+	display: center;
+	color: purple;
+	text-align: center;
+	padding: 14px 16px;
+	font-size:17px;
+	list-style-type: none;
+	position: relative;
+	background-color: #C0C0C0;
+	overflow: hidden;
+}
+.Menus a {
+  display: inline;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.h5{
+	text-align: center;
+}
+.h2{
+	float: left;
+	margin-top:100px;
+	font-size:50px;
+}
+
+#cam{
+	float:right;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+#college{
+	float: left;
+}
+
+.kiddo{
+	float: right;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	text-decoration: none;
+}
+.FTB{
+	float: right;
+	margin-top: 50px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.current{
+	margin-top: 50px;
+	margin-left: 50px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.meme{
+	margin-top: 300px;
+	margin-left: 50px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#yuuna{
+	margin-top: 50px;
+	margin-left:50px;
+	width: 300px;
+	height: 300px;
+}
+
+#loki{
+	position: relative;
+	display: inline-block;
+	border: 1px solid #ddd;
+	padding: 5px;
+	border-radius: 8px;
+	margin-left: 400px;
+	
+}
+
+#mercury{
+	position: relative;
+	display: inline-block;
+	border: 1px solid #ddd;
+	padding: 10px;
+	border-radius: 8px;
+	margin-left: 50px;
+}
+
+.ts{
+	margin-left:50px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.ps{
+	margin-left: 50px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.folder2{
+	margin-left: 50px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	text-decoration: none;
+}
+

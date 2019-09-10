@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	font-family: "Exo", sans-serif;
+	color: #fff;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradBG 15s ease infinite;
+}
+
+@keyframes gradBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    transition: 0.5s;
+}
+
+img:hover {
+    height: 280px;
+    width: 280px;
+}
+
+nav {
+    text-align: center;
+    width: 80%;
+    height: 500px;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.container {
+    position: relative;
+    color: white;
+    text-align: center;
+    width: 250px;
+    margin: auto;
+    display: inline;
+}
+
+.center-text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: fantasy;
+    color: white;
+}
+
+#Intro {
+    font-family: monaco, Consolas, 'Lucida Console', monospace;
+    font-size: 35px;
+    
+  
+}

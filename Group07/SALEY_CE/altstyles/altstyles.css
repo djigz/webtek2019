@@ -1,0 +1,651 @@
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+h1, p {
+    margin: 0;
+}
+
+
+/*------------------------------------------------------------------------------------- Header -------------------------------------------------------------------------------------*/
+
+.main-header {
+    background: url(../images/background/IMG_1120.JPG);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: pic 3s 1;
+}
+
+@keyframes pic {
+    0%{
+        background: url(../images/background/IMG_1121.JPG);
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.main-header h1 {
+    font-family: fantasy;
+    font-size: 60px;
+    letter-spacing: 5px;
+    color: #DB7F8E;
+}
+
+.main-header p {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #DB7F8E;
+}
+
+.header-title {
+    height: 15%;
+    width: 80%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 1;
+    right: 0;
+    margin: auto;
+    animation: head 3s 1;
+}
+
+.header-sub-title:nth-child(1) {
+    height: 20%;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 1;
+    right: 0;
+    margin: auto;
+    animation: text 2s 1;
+}
+
+.header-sub-title:nth-child(3) {
+    height: 0%;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 1;
+    right: 0;
+    margin: auto;
+    animation: text 4s 1;
+}
+
+@keyframes text {
+    0%{
+        color: black;
+        margin-bottom: -1000%;
+    }
+}
+
+@keyframes head {
+    0%{
+        color: black;
+        letter-spacing: 25px;
+        margin-bottom: -1000%;
+    }
+}
+
+/*------------------------------------------------------------------------------------- Side Navigation Bar section -------------------------------------------------------------------------------------*/
+
+nav {
+    white-space: nowrap;
+    background: #37474F;
+    position: fixed;
+    bottom: 50%;
+        
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+/*------------------------------------------------------------------------------------- About Section ---------------------------------------------------------------------------------------*/
+
+.about-section {
+    background: url(../images/background/IMG_1120.JPG);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
+}
+
+.about-section:hover {
+    background: url(../images/background/IMG_0849.JPG);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-title {
+    height: 5%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+    color: bisque;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+.about-content {
+    height: 30%;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 3%;
+}
+
+.about-content p {
+    padding-top: 20px;
+    color: bisque;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+
+/*------------------------------------------------------------------------------------- Interests section ---------------------------------------------------------------------------------------*/
+
+.interests-section {
+    background: url(../images/background/IMG_1120.JPG);
+    height: 480%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
+}
+
+.interests-section:hover {
+    background: url(../images/background/IMG_6397.HEIC);
+    height: 480%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.interests-title {
+    text-align: center;
+    font-size: 50px;
+    font-family: fantasy;
+    color: #8AE1FC;
+    padding-top: 5%;
+}
+
+.second-music {
+    height: 23%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.second-music-header {
+    height: 20%;
+    width: 100%;
+}
+
+.second-music-header h1 {
+    margin: 0;
+    padding-top: 70px;
+    padding-left: 50px;
+    color: #8AE1FC;
+    font-size: 40px;
+}
+
+.second-music-header p {
+    padding-left: 50px;
+    color: #8AE1FC;
+    font-size: 25px;
+}
+
+.music-split {
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    text-align: center;
+}
+
+.music-split {
+    color: #8AE1FC;
+}
+
+.music-split p {
+    color: #8AE1FC;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.music-split img {
+    height: 300px;
+    width: 300px;
+    transition: 0.5s;
+}
+
+.music-split img:hover {
+    height: 350px;
+    width: 350px;
+}
+
+.music-left {
+    left: 0;
+}
+
+.music-left p {
+    margin-left: 15%;;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+.music-right {
+    right: 0;
+}
+
+.music-right p {
+    margin-left: 15%;;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+
+/****************************************************************************************** Sports ****************************************************************************************** Sports ******************************************************************************************/
+/
+
+.sports {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.second-sports-header {
+    height: 20%;
+    width: 100%;
+}
+
+.second-sports-header h1 {
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 50px;
+    color: #8AE1FC;
+    font-size: 40px;
+}
+
+.second-sports-header p {
+    padding-left: 50px;
+    color: #8AE1FC;
+    font-size: 25px;
+}
+
+.sports-container {
+    padding-top: 5%;
+}
+
+.sports-split p {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.sports-left {
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.sports-left h2 {
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #8AE1FC;
+}
+
+.sports-left p {
+    color: #8AE1FC;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+.sports-left img {
+    height: 400px;
+    width: 600px;
+    transition: 0.5s;
+}
+
+.sports-left img:hover {
+    height: 430px;
+    width: 630px;
+}
+
+.sports-right {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.sports-right h2 {
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #8AE1FC;
+}
+
+.sports-right P {
+    color: #8AE1FC;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+.sports-right img {
+    height: 400px;
+    width: 550px;
+    transition: 0.5s;
+}
+
+.sports-right img:hover {
+    width: 580px;
+    height: 430px;
+}
+
+.sports-lower {
+    clear: both;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 3%;
+    height: 600px;
+    width: 100%;
+}
+
+.sports-lower-content {
+    text-align: center;
+}
+
+.sports-lower-content img {
+    height: 400px;
+    width: 550px;
+    transition: 0.5s;
+}
+
+.sports-lower-content img:hover {
+    height: 430px;
+    width: 580px;
+}
+
+.sports-lower-content h2 {
+    color: #8AE1FC;
+}
+
+.sports-lower-content p {
+    margin-left: 15%;;
+    margin-right: 15%;
+    margin-top: 2%;
+    color: #8AE1FC;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/****************************************************************************************** Technical ****************************************************************************************** Sports ******************************************************************************************/
+/
+
+.technical {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 15%;
+}
+
+.second-technical-header {
+    height: 20%;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.second-technical-header h1 {
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 50px;
+    color: #8AE1FC;
+    font-size: 40px;
+}
+
+.second-technical-header p {
+    padding-left: 50px;
+    color: #8AE1FC;
+    font-size: 25px;
+}
+
+.technical-row {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.technical-row h2{
+    color: #8AE1FC;
+}
+
+.technical-row p {
+    color: #8AE1FC;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5%;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.technical-column1, .technical-column2, .technical-column3 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+.technical-column1 img {
+    height: 100px;
+    width: 100px;
+    transition: 0.2s;
+}
+
+.technical-column1 img:hover {
+    height: 105px;
+    width: 110px;
+}
+
+.technical-column2 img {
+    height: 200px;
+    width: 220px;
+    transition: 0.2s;
+}
+
+.technical-column2 img:hover {
+    height: 220px;
+    width: 240px;
+}
+
+.technical-column3 img {
+    height: 200px;
+    width: 220px;
+    transition: 0.2s;
+}
+
+.technical-column3 img:hover {
+    height: 220px;
+    width: 240px;
+}
+
+
+/*------------------------------------------------------------------------------------- Contact section -------------------------------------------------------------------------------------*/
+
+#contact {
+    height: 100%;
+    background-color: #f2f2f2;
+}
+
+.contact-title {
+    position: absolute;
+    left: -1000px;
+}
+
+.contact-container {
+    padding: 10px;
+}
+
+.contact-container h2 {
+    font-size: 40px;
+    margin-top:  5%;
+    color: #3DDC97;
+}
+
+.contact-container p {
+    font-size: 18px;
+    color: #3DDC97;
+}
+
+.left-right {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+}
+
+.whole {
+    margin-top: 10%;
+}
+
+.whole:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+label {
+    color: #3DDC97;
+}
+
+input[type=text], select, textarea {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+@media screen and (max-width: 600px) {
+    .left-right, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+/*------------------------------------------------------------------------------------- Footer section -------------------------------------------------------------------------------------*/
+
+
+
+footer {
+    grid-column: 1 / 3;
+    background: #607D8B;
+    padding: 5rem 1rem;
+    animation: colors 15s 10000;
+}
+
+@keyframes colors {
+    0%{
+        background: #EEE0CB;
+    }
+    
+    25%{
+        background: #BAA898;
+    }
+    
+    50%{
+        background: #BFD7EA;
+    }
+    
+    75% {
+        background: #9ED0E6;
+    }
+    
+    100% {
+        background: #5899E2;
+    }
+    
+}
+
+.footer-images img {
+    width: 2%;
+    height: 2%;
+}
+
+.footer-message {
+    text-align: center;
+    color: #FFCDBC;
+    font-size: 18px;
+    animation: colorText 15s 10000;
+}
+
+@keyframes colorText {
+    0%{
+        color: #474056;
+    }
+    
+    25%{
+        color: #3E92CC;
+    }
+    
+    50%{
+        color: #AC80A0;
+    }
+    
+    75%{
+        color: #CCDBDC;
+    }
+    
+    100%{
+        color: #16324F;
+    }
+}

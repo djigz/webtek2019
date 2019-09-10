@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  border-radius: 8px;
+}
+
+.myimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 150%;
+}
+
+body {
+	background-color: #ffe9ec;
+}
+
+
+.font{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+  background-color:#fff7f8;
+  width: 600px;
+  border: 10px;
+  border-style: outset;
+  border-color: #af6e4e;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+  
+
+}
+.box_2nd {
+  background-color:#fff7f8;
+  width: 600px;
+  border: 10px;
+  border-style: outset;
+  border-color: #af6e4e;; 
+  padding: 0px;
+  margin: 20px;
+
+
+}
+ 
+#Intro {
+    font-family: monaco, Consolas, 'Lucida Console', monospace;
+    font-size: 35px;
+  
+}
+
+#Second {
+    font-family: monaco, Consolas, 'Lucida Console', monospace;
+    font-size: 30px;
+    text-align: center;
+}
+
+#SubSecond {
+    font-family: monaco, Consolas, 'Lucida Console', monospace;
+    font-size: 20px;
+}
+
+#quote {
+	font-family: "Courier New", Courier, monospace;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+
+}
